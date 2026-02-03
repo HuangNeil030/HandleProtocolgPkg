@@ -9,6 +9,6 @@ set PYTHONUTF8=1
 
 set PYTHONIOENCODING=utf-8
 
-rmdir /s /q Build\MemoryUtilityPkg
+rmdir /s /q Build\HandleProtocolgPkg
 
 build -p HandleProtocolgPkg\HandleProtocolgPkg.dsc -a X64 -t VS2019 -b DEBUG
