@@ -1,0 +1,664 @@
+--- Execution Result ---
+----------------------------------------------------------
+Handle Index: 2  |  Address: 0x26553F6C798
+  Device Path: Fv(6D99E806-3D38-42C2-A095-5F4300BFD7DC)
+  Protocols (3):
+    - 220E73B6-6BDB-4413-8405-B974B108619A (Unknown GUID) -> Interface: 0x26553F6BAB0
+    - 09576E91-6D3F-11D2-8E39-00A0C969723B (DevicePath) -> Interface: 0x26553F6C718
+    - 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 (Unknown GUID) -> Interface: 0x26553F6CD30
+----------------------------------------------------------
+Handle Index: 3  |  Address: 0x26553F6BE98
+  Device Path: MemoryMapped(0xB,0x26558660000,0x2655867FFFF)
+  Protocols (2):
+    - 09576E91-6D3F-11D2-8E39-00A0C969723B (DevicePath) -> Interface: 0x26553F6C918
+    - 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 (Unknown GUID) -> Interface: 0x26553F71548
+----------------------------------------------------------
+Handle Index: 18  |  Address: 0x26553B87918
+  Device Path: MemoryMapped(0xB,0x265580E0000,0x2655865FFFF)
+  Protocols (3):
+    - 220E73B6-6BDB-4413-8405-B974B108619A (Unknown GUID) -> Interface: 0x26553B876B0
+    - 09576E91-6D3F-11D2-8E39-00A0C969723B (DevicePath) -> Interface: 0x26553F71420
+    - 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 (Unknown GUID) -> Interface: 0x26553F71448
+
+Press any key to return to menu...-----------------------------------------
+Handle Index: 11  |  Address: 0x13BE624B598
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE624AF98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE624B2C0
+----------------------------------------------------------
+Handle Index: 13  |  Address: 0x13BE624A718
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE624A698
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE624A7C0
+----------------------------------------------------------
+Handle Index: 15  |  Address: 0x13BE6249E18
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE6249798
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE6249B40
+----------------------------------------------------------
+Handle Index: 17  |  Address: 0x13BE6222018
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE6222E98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE6249340
+----------------------------------------------------------
+Handle Index: 19  |  Address: 0x13BE61F1418
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE61C7018
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE61F11C0
+----------------------------------------------------------
+Handle Index: 22  |  Address: 0x13BE61C7418
+  Device Path: [None]
+  Protocols (5):
+    - 2755590C-6F3C-42FA-9EA4-A3BA543CDA25 (Unknown GUID) -> Interface: 0x13BE61C6A18
+    - 96F46153-97A7-4793-ACC1-FA19BF78EA97 (Unknown GUID) -> Interface: 0x44E0C8
+    - 13AC6DD1-73D0-11D4-B06B-00AA00BD6DE7 (Unknown GUID) -> Interface: 0x13BE61C6C98
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE61C6018
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE61C71C0
+----------------------------------------------------------
+Handle Index: 24  |  Address: 0x13BE61C6518
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE61C5F98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE61C6240
+----------------------------------------------------------
+Handle Index: 26  |  Address: 0x13BE61C5818
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE61C5398
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE61C5140
+----------------------------------------------------------
+Handle Index: 28  |  Address: 0x13BE61C4998
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE61C4D18
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE61C40C0
+----------------------------------------------------------
+Handle Index: 30  |  Address: 0x13BE61C1918
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE61C1718
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE61C11C0
+----------------------------------------------------------
+Handle Index: 32  |  Address: 0x13BE61C0A18
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE61C0C98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE61C00C0
+----------------------------------------------------------
+Handle Index: 34  |  Address: 0x13BE61BFD98
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE61BF098
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE61BFB40
+----------------------------------------------------------
+Handle Index: 36  |  Address: 0x13BE61BF498
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE61BEF18
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE61BF1C0
+----------------------------------------------------------
+Handle Index: 38  |  Address: 0x13BE61BE318
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE616FF18
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE616F040
+----------------------------------------------------------
+Handle Index: 40  |  Address: 0x13BE616F998
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE616F818
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE616F4C0
+----------------------------------------------------------
+Handle Index: 44  |  Address: 0x13BE5CBE518
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE5C34F18
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE5CBE240
+----------------------------------------------------------
+Handle Index: 46  |  Address: 0x13BE5C34918
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE5C34718
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE5C34140
+----------------------------------------------------------
+Handle Index: 48  |  Address: 0x13BE5C33998
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE5C33D18
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE5C330C0
+----------------------------------------------------------
+Handle Index: 49  |  Address: 0x13BE5C33518
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE5C32D18
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE5C32040
+----------------------------------------------------------
+Handle Index: 51  |  Address: 0x13BE5C32398
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BE5C32818
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BE5C324C0
+----------------------------------------------------------
+Handle Index: 53  |  Address: 0x13BEA735A18
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA735918
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA7350C0
+----------------------------------------------------------
+Handle Index: 54  |  Address: 0x13BEA749598
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA748D98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA748040
+----------------------------------------------------------
+Handle Index: 57  |  Address: 0x13BEA747F98
+  Device Path: [None]
+  Protocols (3):
+    - 6A1EE763-D47A-43B4-AABE-EF1DE2AB56FC (Unknown GUID) -> Interface: 0x13BEA681060
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA747E98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA747B40
+----------------------------------------------------------
+Handle Index: 59  |  Address: 0x13BEA725998
+  Device Path: [None]
+  Protocols (4):
+    - 3C7200E9-005F-4EA4-87DE-A3DFAC8A27C3 (Unknown GUID) -> Interface: 0x614198
+    - 6A1EE763-D47A-43B4-AABE-EF1DE2AB56FC (Unknown GUID) -> Interface: 0x13BEA5F1060
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA725C18
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA7250C0
+----------------------------------------------------------
+Handle Index: 60  |  Address: 0x13BEA722E18
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA722A18
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA722B40
+----------------------------------------------------------
+Handle Index: 62  |  Address: 0x13BEA721D18
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA721298
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA721040
+----------------------------------------------------------
+Handle Index: 64  |  Address: 0x13BEA71FF18
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA71FB98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA7214C0
+----------------------------------------------------------
+Handle Index: 66  |  Address: 0x13BEA71F598
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA71F718
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA71F2C0
+----------------------------------------------------------
+Handle Index: 68  |  Address: 0x13BEA5F9A98
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA5F9D18
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA5F9140
+----------------------------------------------------------
+Handle Index: 70  |  Address: 0x13BEA5F9698
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA5F8D98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA5F8040
+----------------------------------------------------------
+Handle Index: 72  |  Address: 0x13BEA5F8398
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x6C91F8
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x6C9210
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x6C91C8
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA5F8A18
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA5F8440
+----------------------------------------------------------
+Handle Index: 74  |  Address: 0x13BEA5F8818
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x6DF5E8
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x6DF678
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x6DF318
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA5F7598
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA5F77C0
+----------------------------------------------------------
+Handle Index: 82  |  Address: 0x13BEA5F7298
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x6FB830
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x6FB848
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x6FA230
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA58DD98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA58D040
+----------------------------------------------------------
+Handle Index: 83  |  Address: 0x13BEA58D398
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x710580
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x710598
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x7103E8
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA58C018
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA58D4C0
+----------------------------------------------------------
+Handle Index: 84  |  Address: 0x13BEA58C998
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x72A1A0
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x72A188
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x72A0C8
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA58CB98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA58C0C0
+----------------------------------------------------------
+Handle Index: 85  |  Address: 0x13BEA58C818
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x73E160
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x73E178
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x73E118
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA58BF98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA58C440
+----------------------------------------------------------
+Handle Index: 86  |  Address: 0x13BEA58BC98
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA58B318
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA58B0C0
+----------------------------------------------------------
+Handle Index: 88  |  Address: 0x13BEA58B498
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x7862A8
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x786290
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x786248
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA58B698
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA58A040
+----------------------------------------------------------
+Handle Index: 90  |  Address: 0x13BEA58A318
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x798100
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x7980E8
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x7980B8
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA58A918
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA58A440
+----------------------------------------------------------
+Handle Index: 91  |  Address: 0x13BEA528D18
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x7B71A8
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x7B71C0
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x7B7148
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA528298
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA528040
+----------------------------------------------------------
+Handle Index: 92  |  Address: 0x13BEA528B18
+  Device Path: [None]
+  Protocols (4):
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x7C80F8
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x7C80C8
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA528998
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA5283C0
+----------------------------------------------------------
+Handle Index: 93  |  Address: 0x13BEA527F18
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x7DA140
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x7DA128
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x7DA0F8
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA527E98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA527040
+----------------------------------------------------------
+Handle Index: 94  |  Address: 0x13BEA527B98
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x7E70D8
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x7E70F0
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x7E70A8
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA527818
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA527440
+----------------------------------------------------------
+Handle Index: 95  |  Address: 0x13BEA524098
+  Device Path: [None]
+  Protocols (7):
+    - 4D330321-025F-4AAC-90D8-5ED900173B63 (Unknown GUID) -> Interface: 0x7FA188
+    - 0784924F-E296-11D4-9A49-0090273FC14D (Unknown GUID) -> Interface: 0x7FA198
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x7FA150
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x7FA138
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x7FA108
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA524898
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA524CC0
+----------------------------------------------------------
+Handle Index: 96  |  Address: 0x13BEA524498
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x808410
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x808428
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x8080C8
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA523E18
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA523040
+----------------------------------------------------------
+Handle Index: 97  |  Address: 0x13BEA523398
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA523C18
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA523440
+----------------------------------------------------------
+Handle Index: 99  |  Address: 0x13BEA522A98
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x830580
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x830598
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x830550
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA522518
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA5227C0
+----------------------------------------------------------
+Handle Index: 100  |  Address: 0x13BEA521F98
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x857130
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x857118
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x8570E8
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA521E98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA521B40
+----------------------------------------------------------
+Handle Index: 101  |  Address: 0x13BEA521498
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x86C108
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x86C120
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x86C0D8
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA520F98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA521240
+----------------------------------------------------------
+Handle Index: 102  |  Address: 0x13BEA520198
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x8831D8
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x8831F0
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x883198
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA520218
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA520840
+----------------------------------------------------------
+Handle Index: 103  |  Address: 0x13BEA51FE98
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x8B6748
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x8B6730
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x8B66C0
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA51FA98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA51FBC0
+----------------------------------------------------------
+Handle Index: 104  |  Address: 0x13BEA51F418
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x905198
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x9051B0
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x905158
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA515E98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA515040
+----------------------------------------------------------
+Handle Index: 105  |  Address: 0x13BEA515698
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x925138
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x925150
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x9250F8
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA515918
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA515440
+----------------------------------------------------------
+Handle Index: 106  |  Address: 0x13BEA514A18
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x953400
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x953418
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x953348
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA514898
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA514140
+----------------------------------------------------------
+Handle Index: 108  |  Address: 0x13BEA513B98
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x974148
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x974160
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x974118
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA513A18
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA5130C0
+----------------------------------------------------------
+Handle Index: 109  |  Address: 0x13BEA513698
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA512E98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA5133C0
+----------------------------------------------------------
+Handle Index: 112  |  Address: 0x13BEA339998
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID) -> Interface: 0x9D5358
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID) -> Interface: 0x9D5340
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (DriverBinding) -> Interface: 0x9D5310
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA339B98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA510040
+----------------------------------------------------------
+Handle Index: 119  |  Address: 0x13BEA31AE18
+  Device Path: [None]
+  Protocols (5):
+    - 6302D008-7F9B-4F30-87AC-60C9FEF5DA4E (Unknown GUID) -> Interface: 0xABAAB0
+    - 752F3136-4E16-4FDC-A22A-E5F46812F4CA (Unknown GUID) -> Interface: 0x13BEA26C218
+    - 387477C2-69C7-11D2-8E39-00A0C969723B (Unknown GUID) -> Interface: 0x13BEA26C120
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA3C1418
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA31A1C0
+----------------------------------------------------------
+Handle Index: 120  |  Address: 0x13BEA236198
+  Device Path: [None]
+  Protocols (3):
+    - 752F3136-4E16-4FDC-A22A-E5F46812F4CA (Unknown GUID) -> Interface: 0x13BE6655628
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID) -> Interface: 0x13BEA147E98
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (LoadedImage) -> Interface: 0x13BEA147040
+
+Press any key to return to menu...--- Execution Result ---
+Invalid GUID!
+
+Press any key to return to menu...6] : 0x277FA2A4498
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID)
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID)
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (Unknown GUID)
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID)
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (Loaded Image)
+----------------------------------------------------------
+Handle [097] : 0x277FA2A3398
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID)
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (Loaded Image)
+----------------------------------------------------------
+Handle [098] : 0x277FA2A2B98
+  Device Path: [None]
+  Protocols (1):
+    - DA836F8D-217F-4CA0-99C2-1CA4E16077EA (Unknown GUID)
+----------------------------------------------------------
+Handle [099] : 0x277FA2A2A98
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID)
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID)
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (Unknown GUID)
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID)
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (Loaded Image)
+----------------------------------------------------------
+Handle [100] : 0x277FA2A1F98
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID)
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID)
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (Unknown GUID)
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID)
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (Loaded Image)
+----------------------------------------------------------
+Handle [101] : 0x277FA2A1498
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID)
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID)
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (Unknown GUID)
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID)
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (Loaded Image)
+----------------------------------------------------------
+Handle [102] : 0x277FA2A0198
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID)
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID)
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (Unknown GUID)
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID)
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (Loaded Image)
+----------------------------------------------------------
+Handle [103] : 0x277FA29FE98
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID)
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID)
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (Unknown GUID)
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID)
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (Loaded Image)
+----------------------------------------------------------
+Handle [104] : 0x277FA29F418
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID)
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID)
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (Unknown GUID)
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID)
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (Loaded Image)
+----------------------------------------------------------
+Handle [105] : 0x277FA295698
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID)
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID)
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (Unknown GUID)
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID)
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (Loaded Image)
+----------------------------------------------------------
+Handle [106] : 0x277FA294A18
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID)
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID)
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (Unknown GUID)
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID)
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (Loaded Image)
+----------------------------------------------------------
+Handle [107] : 0x277FA294718
+  Device Path: [None]
+  Protocols (3):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID)
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID)
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (Unknown GUID)
+----------------------------------------------------------
+Handle [108] : 0x277FA293B98
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID)
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID)
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (Unknown GUID)
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID)
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (Loaded Image)
+----------------------------------------------------------
+Handle [109] : 0x277FA293698
+  Device Path: [None]
+  Protocols (2):
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID)
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (Loaded Image)
+----------------------------------------------------------
+Handle [110] : 0x277FA292A18
+  Device Path: VenHw(A04A27F4-DF00-4D42-B552-39511302113D)
+  Protocols (2):
+    - 330D4706-F2A0-4E4F-A369-B66FA8D54385 (Unknown GUID)
+    - 09576E91-6D3F-11D2-8E39-00A0C969723B (Device Path)
+----------------------------------------------------------
+Handle [111] : 0x277FA141F98
+  Device Path: VenHw(B3F56470-6141-4621-8F19-704E577AA9E8)
+  Protocols (2):
+    - 330D4706-F2A0-4E4F-A369-B66FA8D54385 (Unknown GUID)
+    - 09576E91-6D3F-11D2-8E39-00A0C969723B (Device Path)
+----------------------------------------------------------
+Handle [112] : 0x277FA0B9998
+  Device Path: [None]
+  Protocols (5):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID)
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID)
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (Unknown GUID)
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID)
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (Loaded Image)
+----------------------------------------------------------
+Handle [113] : 0x277FA291498
+  Device Path: [None]
+  Protocols (3):
+    - 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 (Unknown GUID)
+    - 107A772C-D5E1-11D4-9A46-0090273FC14D (Unknown GUID)
+    - 18A031AB-B443-4D1A-A5C0-0C09261E9F71 (Unknown GUID)
+----------------------------------------------------------
+Handle [114] : 0x277FA28EE98
+  Device Path: VenHw(5CF32E0B-8EDF-2E44-9CDA-93205E99EC1C,00000000)/VenHw(30FD316A-6728-2E41-A690-0D1333D8CAC1,00000000)
+  Protocols (9):
+    - D3B36F2B-D551-11D4-9A46-0090273FC14D (Unknown GUID)
+    - D3B36F2C-D551-11D4-9A46-0090273FC14D (Unknown GUID)
+    - 387477C2-69C7-11D2-8E39-00A0C969723B (Unknown GUID)
+    - DD9E7534-7762-4698-8C14-F58517A625AA (Unknown GUID)
+    - 31878C87-0B75-11D5-9A4F-0090273FC14D (Unknown GUID)
+    - 387477C1-69C7-11D2-8E39-00A0C969723B (Unknown GUID)
+    - 9042A9DE-23DC-4A38-96FB-7ADED080516A (Unknown GUID)
+    - 453368F6-7C85-434A-A98A-72D1B7FFA926 (Unknown GUID)
+    - 09576E91-6D3F-11D2-8E39-00A0C969723B (Device Path)
+----------------------------------------------------------
+Handle [115] : 0x277FA0B4D18
+  Device Path: VenHw(5CF32E0B-8EDF-2E44-9CDA-93205E99EC1C,00000000)/VenHw(964E5B22-6459-11D2-8E39-00A0C969723B,00000000)
+  Protocols (3):
+    - 964E5B22-6459-11D2-8E39-00A0C969723B (FileSystem)
+    - 453368F6-7C85-434A-A98A-72D1B7FFA926 (Unknown GUID)
+    - 09576E91-6D3F-11D2-8E39-00A0C969723B (Device Path)
+----------------------------------------------------------
+Handle [116] : 0x277FA0B4918
+  Device Path: VenHw(5CF32E0B-8EDF-2E44-9CDA-93205E99EC1C,00000000)/VenHw(6888A4AE-AFCE-E84B-9102-F7B9DAE6A030,00000000)
+  Protocols (6):
+    - 151C8EAE-7F2C-472C-9E54-9828194F6A88 (Unknown GUID)
+    - CE345171-BA0B-11D2-8E4F-00A0C969723B (Unknown GUID)
+    - A77B2472-E282-4E9F-A245-C2C0E27BBCC1 (Unknown GUID)
+    - 964E5B21-6459-11D2-8E39-00A0C969723B (Block IO)
+    - 453368F6-7C85-434A-A98A-72D1B7FFA926 (Unknown GUID)
+    - 09576E91-6D3F-11D2-8E39-00A0C969723B (Device Path)
+----------------------------------------------------------
+Handle [117] : 0x277FA0B3E98
+  Device Path: VenHw(5CF32E0B-8EDF-2E44-9CDA-93205E99EC1C,00000000)/VenHw(FD5FBE54-8C35-B345-8A0F-7AC8A5FD0521,00000000)
+  Protocols (2):
+    - 453368F6-7C85-434A-A98A-72D1B7FFA926 (Unknown GUID)
+    - 09576E91-6D3F-11D2-8E39-00A0C969723B (Device Path)
+----------------------------------------------------------
+Handle [118] : 0x277FA09DF98
+  Device Path: VenHw(D3987D4B-971A-435F-8CAF-4967EB627241)/Uart(115200,8,N,1)/VenVt100()
+  Protocols (4):
+    - 09576E91-6D3F-11D2-8E39-00A0C969723B (Device Path)
+    - 387477C2-69C7-11D2-8E39-00A0C969723B (Unknown GUID)
+    - DD9E7534-7762-4698-8C14-F58517A625AA (Unknown GUID)
+    - 387477C1-69C7-11D2-8E39-00A0C969723B (Unknown GUID)
+----------------------------------------------------------
+Handle [119] : 0x277FA09AE18
+  Device Path: [None]
+  Protocols (5):
+    - 6302D008-7F9B-4F30-87AC-60C9FEF5DA4E (Unknown GUID)
+    - 752F3136-4E16-4FDC-A22A-E5F46812F4CA (Unknown GUID)
+    - 387477C2-69C7-11D2-8E39-00A0C969723B (Unknown GUID)
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID)
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (Loaded Image)
+----------------------------------------------------------
+Handle [120] : 0x277F9FB6198
+  Device Path: [None]
+  Protocols (3):
+    - 752F3136-4E16-4FDC-A22A-E5F46812F4CA (Unknown GUID)
+    - BC62157E-3E33-4FEC-9920-2D3B36D750DF (Unknown GUID)
+    - 5B1B31A1-9562-11D2-8E3F-00A0C969723B (Loaded Image)
