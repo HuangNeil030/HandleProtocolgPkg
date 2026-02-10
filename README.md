@@ -1,6 +1,4 @@
 # HandleProtocolgPkg
-這是一份針對 `HandleProtocolg.c` (v10 旗艦版) 的 **README 技術筆記**。這份文件整理了各個核心函數的設計邏輯、參數說明與使用注意事項，適合開發者閱讀與維護。
-
 ---
 
 # UEFI Handle Inspector (HandleProtocolg) 技術文件
