@@ -170,6 +170,128 @@
 * **Dump All**：查看系統全貌。
 * **Search GUID**：填空介面，找特定功能的所有 Handle。
 * **Search Index**：直接輸入 Handle 編號 (如 `A5`) 查看詳細內容。
+
+這是一份為 `HandleProtocolg` (v10 旗艦版) 撰寫的**「系統架構與主選單流程 (System Architecture & Menu Flow)」**教科書級說明章節。您可以將這段內容直接無縫接軌到您的 README 技術筆記中。
+
+這章節將剖析本工具是如何與 UEFI 底層的 Handle Database (控制代碼資料庫) 互動，以及主程式的生命週期 (Lifecycle) 與狀態機 (State Machine) 流程。
+
+---
+
+# 系統架構與主選單流程 (System Architecture & Menu Flow)
+
+## 1. UEFI 系統架構概念 (UEFI System Concepts)
+
+要理解本工具的運作原理，首先必須釐清 UEFI Driver Model 的「三本柱」：**Handle、Protocol 與 Interface**。本工具的核心任務，就是將這三者的抽象關係具象化並印在螢幕上。
+
+* **Handle (控制代碼)**：
+可以把它想像成一個「容器」或「身分證字號」。在 UEFI 系統中，每一個硬體裝置 (如 USB 控制器、硬碟)、每一個虛擬裝置或每一個載入的執行檔 (.efi)，都會被系統分配一個獨一無二的 Handle。
+* *本工具實作*：透過 `gBS->LocateHandleBuffer(AllHandles, ...)` 一次性將系統中所有的 Handle 抓取到記憶體陣列中。
+
+
+* **Protocol (協定)**：
+附著在 Handle 上的「能力標籤」。Protocol 是一組由 C 語言 `struct` 組成的函式指標與資料變數。每一個 Protocol 都有一個 128-bit 的 GUID 作為全球唯一識別碼。
+* *本工具實作*：透過 `gBS->ProtocolsPerHandle` 查詢某個 Handle 上掛載了哪些 GUID，並透過內建的 `mProtocolDatabase` 將生硬的 GUID 翻譯成人類可讀的名稱 (如 `BlockIO`)。
+
+
+* **Interface (介面實體位址)**：
+這是 Protocol 在記憶體中真正的存放位址。**不同的 Handle 可能擁有相同 GUID 的 Protocol，但它們的 Interface 位址絕對不同。**
+* *本工具實作*：透過 `gBS->HandleProtocol` 取得該 Protocol 的 Interface 指標，這對於開發者除錯「哪一個驅動程式實作了這個介面」至關重要。
+
+
+
+---
+
+## 2. 工具軟體架構層 (Software Architecture Layers)
+
+`HandleProtocolg` 的程式碼設計採用了清晰的分層架構 (Layered Architecture)：
+
+1. **輸入層 (Input / Event Layer)**：
+* **組件**：`GetInput()`, `GetGuidInput()`, `RunMenu()`
+* **職責**：直接與 `gST->ConIn` 互動。攔截鍵盤的 `ScanCode` (方向鍵) 與 `UnicodeChar` (字元與 Backspace)。使用 `WaitForEvent` 實作非阻塞 (Non-blocking) 式的等待，確保系統資源不被霸佔。
+
+
+2. **處理層 (Processing / Logic Layer)**：
+* **組件**：`MyStrToUintn()`, `StringToGuid()`, `MyStrCmpi()`
+* **職責**：將使用者的「字串輸入」安全地轉換為「系統資料結構」(整數或 GUID)。提供高度容錯能力 (如忽略空白、大小寫轉換、自動跳過減號)。
+
+
+3. **核心查詢層 (Core Query Layer)**：
+* **組件**：`SearchByProtocol()`, `GetDriverName()`
+* **職責**：與 UEFI Boot Services (`gBS`) 直接交火。負責遍歷 Handle Database，並使用 `EFI_COMPONENT_NAME2_PROTOCOL` 嘗試解析底層驅動程式的名稱。
+
+
+4. **輸出層 (Output / Logging Layer)**：
+* **組件**：`DumpHandleDetail()`, `ColorPrint()`, `Log()`
+* **職責**：將查詢結果格式化。使用 `gST->ConOut->SetAttribute` 進行語法高亮 (Syntax Highlighting)，並透過 `EFI_FILE_PROTOCOL` 將結果同步持久化 (Persist) 到磁碟中的 `HandleDump_v10.log`。
+
+
+
+---
+
+## 3. 主選單執行流程 (Main Menu Flow)
+
+程式的生命週期由 `UefiMain` 控制，整體流程為一個無限迴圈 (Infinite Loop) 所構成的狀態機，直到使用者選擇 `Exit` 才會觸發清理並退出。
+
+```mermaid
+graph TD
+    %% 節點定義
+    Start([啟動: UefiMain])
+    InitLog[初始化 Log 系統<br>OpenLogFile]
+    MenuLoop{進入主選單<br>RunMenu}
+    
+    Case0[Case 0: Dump All<br>列舉所有 Handle]
+    Case1[Case 1: Search GUID<br>填空模式輸入 GUID]
+    Case2[Case 2: Search Name<br>模糊/精準名稱查表]
+    Case3[Case 3: Search Index<br>智慧數字解析 (Hex/Dec)]
+    
+    PrintResult[核心顯示邏輯<br>DumpHandleDetail]
+    WaitKey[等待任意鍵<br>WaitForKey]
+    Cleanup[關閉 Log 檔案<br>CloseLogFile]
+    End([結束程式: EFI_SUCCESS])
+
+    %% 流程線
+    Start --> InitLog
+    InitLog --> MenuLoop
+    
+    %% 選單分支
+    MenuLoop -->|選擇 1| Case0
+    MenuLoop -->|選擇 2| Case1
+    MenuLoop -->|選擇 3| Case2
+    MenuLoop -->|選擇 4| Case3
+    MenuLoop -->|選擇 Exit| Cleanup
+    
+    %% 執行邏輯
+    Case0 --> PrintResult
+    Case1 --> |StringToGuid| PrintResult
+    Case2 --> |GetGuidByName| PrintResult
+    Case3 --> |MyStrToUintn| PrintResult
+    
+    %% 迴圈返回
+    PrintResult --> WaitKey
+    WaitKey -.-> |清除緩衝區並返回| MenuLoop
+    
+    %% 結束
+    Cleanup --> End
+
+```
+
+### 流程拆解說明 (Step-by-Step Breakdown)：
+
+1. **啟動與環境準備 (Initialization)**：
+進入 `UefiMain` 後，第一步是呼叫 `OpenLogFile(ImageHandle)`。系統會追溯此 `.efi` 檔案所在的磁碟位置，並在該磁碟根目錄建立 Log 檔。這確保了即使電腦重開機，剛才的檢測記錄依然保留。
+2. **UI 渲染與輪詢 (UI Render & Polling)**：
+呼叫 `RunMenu()`。此時關閉游標顯示 (`EnableCursor(FALSE)`)，進入鍵盤事件輪詢 (`WaitForEvent`)。根據使用者的上下鍵改變 `Selection` 變數，並透過 `SetAttribute` 動態重繪反白效果，直到使用者按下 Enter (`\r`) 回傳選擇的 Index。
+3. **分支執行 (Branch Execution)**：
+* **Dump All**: 直接呼叫 `LocateHandleBuffer`，並用 `for` 迴圈將回傳的陣列從 0 印到最大值。
+* **Search GUID**: 呼叫客製化的 `GetGuidInput` 顯示遮罩。輸入完成後，將字串轉為 128-bit GUID，傳遞給 `SearchByProtocol` 進行全系統比對。
+* **Search Name**: 讓使用者輸入字串 (如 `BlockIO`)，先到 `mProtocolDatabase` 進行不分大小寫比對 (`MyStrCmpi`)，若查無此名則直接報錯，若有則取得對應 GUID 交由 `SearchByProtocol` 處理。
+* **Search Index**: 讓使用者輸入數字，交由 `MyStrToUintn` 自動判斷進位制並解析。確認數字未超出最大 Handle 數量後，直接針對該陣列索引呼叫 `DumpHandleDetail`。
+
+
+4. **結果展示與暫停 (Result & Pause)**：
+結果輸出完畢後，印出 `Press any key to return...`。為了避免使用者剛才按下的 Enter 鍵殘留在緩衝區導致直接跳過暫停，這裡會先用 `gST->ConIn->ReadKeyStroke` 清空舊按鍵，再呼叫一次 `WaitForEvent` 等待新的按鍵行為。
+5. **安全退出 (Graceful Exit)**：
+當使用者在選單選擇 Exit (選項 4)，跳出 `while(TRUE)` 迴圈，呼叫 `CloseLogFile()` 強制將記憶體中的資料寫入磁碟 (Flush) 並關閉指標，最後回傳 `EFI_SUCCESS` 將控制權交還給 UEFI Shell。
 ____________________________________________________________
 cd /d D:\BIOS\MyWorkSpace\edk2
 
